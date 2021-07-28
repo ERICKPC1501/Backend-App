@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "voluntarios",
+  "info": {
+    "name": "voluntarios"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "cedula": {
+      "type": "biginteger"
+    },
+    "celular": {
+      "type": "biginteger"
+    },
+    "profesion": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "text"
+    }
+  }
+}

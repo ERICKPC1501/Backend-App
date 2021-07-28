@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/donacion-monetarias",
+      "handler": "donacion-monetaria.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/donacion-monetarias/count",
+      "handler": "donacion-monetaria.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/donacion-monetarias/:id",
+      "handler": "donacion-monetaria.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/donacion-monetarias",
+      "handler": "donacion-monetaria.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/donacion-monetarias/:id",
+      "handler": "donacion-monetaria.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/donacion-monetarias/:id",
+      "handler": "donacion-monetaria.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

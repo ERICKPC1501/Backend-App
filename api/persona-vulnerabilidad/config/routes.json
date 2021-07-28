@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/persona-vulnerabilidads",
+      "handler": "persona-vulnerabilidad.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/persona-vulnerabilidads/count",
+      "handler": "persona-vulnerabilidad.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/persona-vulnerabilidads/:id",
+      "handler": "persona-vulnerabilidad.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/persona-vulnerabilidads",
+      "handler": "persona-vulnerabilidad.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/persona-vulnerabilidads/:id",
+      "handler": "persona-vulnerabilidad.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/persona-vulnerabilidads/:id",
+      "handler": "persona-vulnerabilidad.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

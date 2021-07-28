@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/articulo-juguetes",
+      "handler": "articulo-juguetes.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulo-juguetes/count",
+      "handler": "articulo-juguetes.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulo-juguetes/:id",
+      "handler": "articulo-juguetes.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/articulo-juguetes",
+      "handler": "articulo-juguetes.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/articulo-juguetes/:id",
+      "handler": "articulo-juguetes.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/articulo-juguetes/:id",
+      "handler": "articulo-juguetes.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

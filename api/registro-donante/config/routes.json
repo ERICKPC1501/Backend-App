@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/registro-donantes",
+      "handler": "registro-donante.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registro-donantes/count",
+      "handler": "registro-donante.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/registro-donantes/:id",
+      "handler": "registro-donante.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/registro-donantes",
+      "handler": "registro-donante.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/registro-donantes/:id",
+      "handler": "registro-donante.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/registro-donantes/:id",
+      "handler": "registro-donante.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

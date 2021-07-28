@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/articulos-alimentos",
+      "handler": "articulos-alimentos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulos-alimentos/count",
+      "handler": "articulos-alimentos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulos-alimentos/:id",
+      "handler": "articulos-alimentos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/articulos-alimentos",
+      "handler": "articulos-alimentos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/articulos-alimentos/:id",
+      "handler": "articulos-alimentos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/articulos-alimentos/:id",
+      "handler": "articulos-alimentos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

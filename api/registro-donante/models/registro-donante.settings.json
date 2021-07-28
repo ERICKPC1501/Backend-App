@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "registro_donantes",
+  "info": {
+    "name": "registro donante"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "correo": {
+      "type": "email"
+    },
+    "numero": {
+      "type": "integer"
+    }
+  }
+}

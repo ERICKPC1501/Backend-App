@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articulos_ropas",
+  "info": {
+    "name": "articulos ropa",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "genero": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "talla": {
+      "type": "string"
+    },
+    "cantidad": {
+      "type": "integer"
+    }
+  }
+}

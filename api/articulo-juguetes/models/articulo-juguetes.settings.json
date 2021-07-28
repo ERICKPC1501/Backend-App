@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articulo_juguetes",
+  "info": {
+    "name": "articulo juguetes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "genero": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

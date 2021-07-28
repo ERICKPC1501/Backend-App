@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "persona_vulnerabilidads",
+  "info": {
+    "name": "persona vulnerabilidad"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Sector": {
+      "type": "string"
+    },
+    "Direccion": {
+      "type": "text"
+    },
+    "Sexo": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donacion_monetarias",
+  "info": {
+    "name": "donacion monetaria"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "decimal"
+    },
+    "baucher": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

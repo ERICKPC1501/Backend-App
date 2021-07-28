@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/articulos-ropas",
+      "handler": "articulos-ropa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulos-ropas/count",
+      "handler": "articulos-ropa.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/articulos-ropas/:id",
+      "handler": "articulos-ropa.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/articulos-ropas",
+      "handler": "articulos-ropa.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/articulos-ropas/:id",
+      "handler": "articulos-ropa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/articulos-ropas/:id",
+      "handler": "articulos-ropa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
