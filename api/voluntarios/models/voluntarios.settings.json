@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "voluntarios",
   "info": {
-    "name": "voluntarios"
+    "name": "voluntarios",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,9 +29,6 @@
     },
     "profesion": {
       "type": "string"
-    },
-    "direccion": {
-      "type": "text"
     }
   }
 }

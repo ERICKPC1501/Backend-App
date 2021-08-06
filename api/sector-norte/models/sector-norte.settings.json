@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sector_nortes",
+  "info": {
+    "name": "Sector norte"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sector": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "personas": {
+      "type": "integer"
+    },
+    "descripcion": {
+      "type": "text"
+    }
+  }
+}

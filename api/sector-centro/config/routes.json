@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sector-centros",
+      "handler": "sector-centro.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-centros/count",
+      "handler": "sector-centro.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-centros/:id",
+      "handler": "sector-centro.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sector-centros",
+      "handler": "sector-centro.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sector-centros/:id",
+      "handler": "sector-centro.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sector-centros/:id",
+      "handler": "sector-centro.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

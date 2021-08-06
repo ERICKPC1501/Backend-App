@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sector-surs",
+      "handler": "sector-sur.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-surs/count",
+      "handler": "sector-sur.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-surs/:id",
+      "handler": "sector-sur.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sector-surs",
+      "handler": "sector-sur.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sector-surs/:id",
+      "handler": "sector-sur.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sector-surs/:id",
+      "handler": "sector-sur.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

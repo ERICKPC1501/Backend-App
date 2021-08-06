@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sector-nortes",
+      "handler": "sector-norte.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-nortes/count",
+      "handler": "sector-norte.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sector-nortes/:id",
+      "handler": "sector-norte.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sector-nortes",
+      "handler": "sector-norte.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sector-nortes/:id",
+      "handler": "sector-norte.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sector-nortes/:id",
+      "handler": "sector-norte.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
